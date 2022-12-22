@@ -555,10 +555,8 @@ footer .copyright {
   text-align: center;
 }
 
-
-
 /*Shop Page*/
-#page-header{
+#page-header {
   background-image: url("img/banner/b1.jpg");
   width: 100%;
   height: 40vh;
@@ -571,11 +569,11 @@ footer .copyright {
 }
 
 #page-header h2,
-#page-header p{
+#page-header p {
   color: #fff;
 }
 
-#pagination{
+#pagination {
   text-align: center;
 }
 
@@ -594,12 +592,12 @@ footer .copyright {
 }
 
 /*Single Product*/
-#prodetails{
+#prodetails {
   display: flex;
   margin-top: 20px;
 }
 
-#prodetails .single-pro-image{
+#prodetails .single-pro-image {
   width: 40%;
   margin-right: 50px;
 }
@@ -609,16 +607,50 @@ footer .copyright {
   justify-content: space-between;
 }
 
+.small-img-col {
+  flex-basis: 24%;
+  cursor: pointer;
+}
+
 #prodetails .single-pro-details {
   width: 50%;
   padding-top: 30px;
 }
 
-.small-img-col{
-  flex-basis: 24%;
-  cursor: pointer;
+#prodetails .single-pro-details h4 {
+  padding: 40px 0 20px 0;
 }
 
+#prodetails .single-pro-details h2 {
+  font-size: 26px;
+}
+
+#prodetails .single-pro-details select {
+  display: block;
+  padding: 5px 10px;
+  margin-bottom: 10px;
+}
+
+#prodetails .single-pro-details input {
+  width: 50px;
+  height: 47px;
+  padding-left: 10px;
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+#prodetails .single-pro-details input:focus {
+  outline: none;
+}
+
+#prodetails .single-pro-details button {
+  background-color: #088178;
+  color: #fff;
+}
+
+#prodetails .single-pro-details span {
+  line-height: 25px;
+}
 
 /* Stary Media  Query*/
 
@@ -767,21 +799,23 @@ footer .copyright {
 
   #banner3 {
     padding: 0 20px;
-}
+  }
 
-#banner3 .banner-box {
-  width: 100%;
-}
+  #banner3 .banner-box {
+    width: 100%;
+  }
 
-#newsletter {
-   padding:40px 20px ;
-}
+  #newsletter {
+    padding: 40px 20px;
+  }
 
-#newsletter .form {
-  width: 100%;
-}
+  #newsletter .form {
+    width: 100%;
+  }
 
-footer .copyright {
-  text-align: start;
-}
+  footer .copyright {
+    text-align: start;
+  }
+
+  /*Single Product*/
 }

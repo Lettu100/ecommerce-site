@@ -42,7 +42,7 @@
             <img
               src="img/products/f1.jpg"
               width="100%"
-              class="small-amg"
+              class="small-img"
               alt=""
             />
           </div>
@@ -51,7 +51,7 @@
             <img
               src="img/products/f2.jpg"
               width="100%"
-              class="small-amg"
+              class="small-img"
               alt=""
             />
           </div>
@@ -60,7 +60,7 @@
             <img
               src="img/products/f3.jpg"
               width="100%"
-              class="small-amg"
+              class="small-img"
               alt=""
             />
           </div>
@@ -69,7 +69,7 @@
             <img
               src="img/products/f4.jpg"
               width="100%"
-              class="small-amg"
+              class="small-img"
               alt=""
             />
           </div>
@@ -80,14 +80,14 @@
         <h4>Men's Fashion T Shirt</h4>
         <h2>$139.00</h2>
         <select name="" id="">
-          <option value="">Select Size</option>
-          <option value="">XL</option>
-          <option value="">XXL</option>
-          <option value="">Small</option>
-          <option value="">Large</option>
+          <option>Select Size</option>
+          <option>XL</option>
+          <option>XXL</option>
+          <option>Small</option>
+          <option >Large</option>
         </select>
         <input type="number" value="1" />
-        <button>Add To Cart</button>
+        <button class="normal">Add To Cart</button>
         <h4>Product Details</h4>
         <span
           >Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia,
@@ -97,6 +97,80 @@
           velit minus tempore exercitationem quod adipisci? Debitis voluptatibus
           non accusantium cumque esse quis?</span
         >
+      </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+      <h2>Features Products</h2>
+      <p>Summer Collection New Modern Design</p>
+      <div class="pro-container">
+        <div class="pro">
+          <img src="img/products/n1.jpg" alt="" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+        </div>
+
+        <div class="pro">
+          <img src="img/products/n2.jpg" alt="" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+        </div>
+
+        <div class="pro">
+          <img src="img/products/n3.jpg" alt="" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+        </div>
+
+        <div class="pro">
+          <img src="img/products/n4.jpg" alt="" />
+          <div class="des">
+            <span>adidas</span>
+            <h5>Cartoon Astronaut T-Shirts</h5>
+            <div class="star">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <h4>$78</h4>
+          </div>
+          <a href="#"><i class="fas fa-shopping-cart cart"></i></a>
+        </div>
       </div>
     </section>
 
@@ -163,6 +237,29 @@
         <p>&copy; 2022, Lettu etc Ecommerce Template</p>
       </div>
     </footer>
+
+    <script>
+      var MainImg = document.getElementById('MainImg');
+      var smalling = document.getElementsByClassName('small-img');
+
+      smalling[0].onclick = function(){
+        MainImg.src = smalling[0].src;
+      }
+
+      smalling[1].onclick = function(){
+        MainImg.src = smalling[1].src;
+      }
+
+      smalling[2].onclick = function(){
+        MainImg.src = smalling[2].src;
+      }
+
+      smalling[3].onclick = function(){
+        MainImg.src = smalling[3].src;
+      }
+
+    
+    </script>
 
     <script src="script.js"></script>
   </body>
