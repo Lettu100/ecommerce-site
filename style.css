@@ -818,4 +818,18 @@ footer .copyright {
   }
 
   /*Single Product*/
+
+  #prodetails {
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+  }
+
+  #prodetails .single-pro-image {
+    width: 100%;
+  }
+
+  #prodetails .single-pro-details {
+    width: 100%;
+  }
 }
