@@ -1,2 +1,3 @@
 # Ecommerce_Demo
-An ecommerce website f
+An ecommerce website for business
+
